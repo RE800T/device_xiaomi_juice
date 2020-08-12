@@ -350,6 +350,10 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES +=  matlog
 
+# Perf
+PRODUCT_PACKAGES += \
+    libqti-perfd-client
+
 # Service Tracker
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.servicetracker@1.2-service \
