@@ -37,7 +37,12 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_PACKAGES += android.hardware.fastboot@1.0-impl-mock
 PRODUCT_PACKAGES += fastbootd
 
-# ANT+
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+    Launcher3QuickStep \
+    Settings \
+    SystemUI
+
+# ANT
 PRODUCT_PACKAGES += \
     AntHalService-Soong \
     com.dsi.ant.antradio_library \
