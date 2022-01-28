@@ -623,3 +623,6 @@ PRODUCT_PACKAGES += \
 # Dirac
 PRODUCT_PACKAGES += \
     Dirac
+
+# path to Dirac
+$(call inherit-product, vendor/xiaomi/dirac/dirac.mk)
