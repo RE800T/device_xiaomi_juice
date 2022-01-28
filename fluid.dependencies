@@ -2,5 +2,10 @@
   {
     "repository": "android_hardware_xiaomi,
     "target_path": "hardware/xiaomi"
+  },
+
+  {
+    "repository": "vendor_xiaomi_dirac,
+    "target_path": "vendor/xiaomi/dirac"
   }
 ]
