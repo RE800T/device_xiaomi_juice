@@ -8,7 +8,7 @@ DEVICE_PATH := device/xiaomi/juice
 BOARD_VENDOR := xiaomi
 
 # Security patch level
-VENDOR_SECURITY_PATCH := 2021-06-05
+VENDOR_SECURITY_PATCH := 2022-01-05
 
 BUILD_BROKEN_DUP_RULES := true
 
