@@ -83,7 +83,7 @@ void vendor_load_properties() {
         property_override("ro.product.device", "lime");
     } else if (hwname == "lemon") {
         property_override("ro.product.brand", "Redmi");
-        property_override("ro.product.model", "Redmi 9T");
+        property_override("ro.product.model", "Redmi 9T NFC");
         property_override("ro.product.device", "lemon");
     } else if (hwname == "citrus") {
         property_override("ro.product.brand", "POCO");
