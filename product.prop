@@ -14,3 +14,6 @@ debug.hwui.renderer=opengl
 debug.sf.latch_unsignaled=1
 debug.sf.disable_backpressure=1
 debug.sf.disable_hwc_overlays=1
+
+# Rescue party
+persist.sys.disable_rescue=true
