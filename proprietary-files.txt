@@ -66,14 +66,6 @@ vendor/lib64/soundfx/libaudiopreprocessing.so
 
 # Audio-ACDB
 vendor/etc/acdbdata/adsp_avs_config.acdb
-vendor/etc/acdbdata/IDP/bengal-scubaidp-snd-card/IDP_Scuba_Bluetooth_cal.acdb
-vendor/etc/acdbdata/IDP/bengal-scubaidp-snd-card/IDP_Scuba_General_cal.acdb
-vendor/etc/acdbdata/IDP/bengal-scubaidp-snd-card/IDP_Scuba_Global_cal.acdb
-vendor/etc/acdbdata/IDP/bengal-scubaidp-snd-card/IDP_Scuba_Handset_cal.acdb
-vendor/etc/acdbdata/IDP/bengal-scubaidp-snd-card/IDP_Scuba_Hdmi_cal.acdb
-vendor/etc/acdbdata/IDP/bengal-scubaidp-snd-card/IDP_Scuba_Headset_cal.acdb
-vendor/etc/acdbdata/IDP/bengal-scubaidp-snd-card/IDP_Scuba_Speaker_cal.acdb
-vendor/etc/acdbdata/IDP/bengal-scubaidp-snd-card/IDP_Scuba_workspaceFile.qwsp
 vendor/etc/acdbdata/IDP/IDP_Bluetooth_cal.acdb
 vendor/etc/acdbdata/IDP/IDP_General_cal.acdb
 vendor/etc/acdbdata/IDP/IDP_Global_cal.acdb
@@ -101,6 +93,10 @@ vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb
 vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb
 vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb
 vendor/etc/acdbdata/QRD/QRD_workspaceFile.qwsp
+
+# AudioHalExtension
+vendor/lib/hw/vendor.qti.hardware.audiohalext@1.0-impl.so
+vendor/lib64/hw/vendor.qti.hardware.audiohalext@1.0-impl.so
 
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
@@ -438,52 +434,6 @@ vendor/lib64/lib_lowlight.so
 vendor/lib64/vendor.qti.hardware.camera.device@1.0.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0.so
-
-# Camera-citrus
-vendor/lib/camera/com.qti.eeprom.citrus_ofilm_ov8856_front_eeprom.so
-vendor/lib/camera/com.qti.eeprom.citrus_sunny_ov8856_front_eeprom.so
-vendor/lib/camera/com.qti.sensor.citrus_ofilm_ov8856_front.so
-vendor/lib/camera/com.qti.sensor.citrus_sunny_hi259_macro.so
-vendor/lib/camera/com.qti.sensor.citrus_sunny_ov02b1b_depth.so
-vendor/lib/camera/com.qti.sensor.citrus_sunny_ov8856_front.so
-vendor/lib/camera/com.qti.sensor.citrus_sunny_s5kgm1sp_main.so
-vendor/lib/camera/com.qti.sensor.citrus_sunny_s5kgm1st_main.so
-vendor/lib/camera/com.qti.sensormodule.citrus_ofilm_ov8856_front.bin
-vendor/lib/camera/com.qti.sensormodule.citrus_ofilm_ov8856g2_front.bin
-vendor/lib/camera/com.qti.sensormodule.citrus_sunny_hi259_macro.bin
-vendor/lib/camera/com.qti.sensormodule.citrus_sunny_ov02b1b_depth.bin
-vendor/lib/camera/com.qti.sensormodule.citrus_sunny_ov8856_front.bin
-vendor/lib/camera/com.qti.sensormodule.citrus_sunny_ov8856g2_front.bin
-vendor/lib/camera/com.qti.sensormodule.citrus_sunny_s5kgm1sp_main.bin
-vendor/lib/camera/com.qti.sensormodule.citrus_sunny_s5kgm1st_main.bin
-vendor/lib/camera/com.qti.tuned.citrus_ofilm_ov8856_front.bin
-vendor/lib/camera/com.qti.tuned.citrus_sunny_hi259_macro.bin
-vendor/lib/camera/com.qti.tuned.citrus_sunny_ov02b1b_depth.bin
-vendor/lib/camera/com.qti.tuned.citrus_sunny_ov8856_front.bin
-vendor/lib/camera/com.qti.tuned.citrus_sunny_s5kgm1sp_main.bin
-vendor/lib/camera/com.qti.tuned.citrus_sunny_s5kgm1st_main.bin
-vendor/lib64/camera/com.qti.eeprom.citrus_ofilm_ov8856_front_eeprom.so
-vendor/lib64/camera/com.qti.eeprom.citrus_sunny_ov8856_front_eeprom.so
-vendor/lib64/camera/com.qti.sensor.citrus_ofilm_ov8856_front.so
-vendor/lib64/camera/com.qti.sensor.citrus_sunny_hi259_macro.so
-vendor/lib64/camera/com.qti.sensor.citrus_sunny_ov02b1b_depth.so
-vendor/lib64/camera/com.qti.sensor.citrus_sunny_ov8856_front.so
-vendor/lib64/camera/com.qti.sensor.citrus_sunny_s5kgm1sp_main.so
-vendor/lib64/camera/com.qti.sensor.citrus_sunny_s5kgm1st_main.so
-vendor/lib64/camera/com.qti.sensormodule.citrus_ofilm_ov8856_front.bin
-vendor/lib64/camera/com.qti.sensormodule.citrus_ofilm_ov8856g2_front.bin
-vendor/lib64/camera/com.qti.sensormodule.citrus_sunny_hi259_macro.bin
-vendor/lib64/camera/com.qti.sensormodule.citrus_sunny_ov02b1b_depth.bin
-vendor/lib64/camera/com.qti.sensormodule.citrus_sunny_ov8856_front.bin
-vendor/lib64/camera/com.qti.sensormodule.citrus_sunny_ov8856g2_front.bin
-vendor/lib64/camera/com.qti.sensormodule.citrus_sunny_s5kgm1sp_main.bin
-vendor/lib64/camera/com.qti.sensormodule.citrus_sunny_s5kgm1st_main.bin
-vendor/lib64/camera/com.qti.tuned.citrus_ofilm_ov8856_front.bin
-vendor/lib64/camera/com.qti.tuned.citrus_sunny_hi259_macro.bin
-vendor/lib64/camera/com.qti.tuned.citrus_sunny_ov02b1b_depth.bin
-vendor/lib64/camera/com.qti.tuned.citrus_sunny_ov8856_front.bin
-vendor/lib64/camera/com.qti.tuned.citrus_sunny_s5kgm1sp_main.bin
-vendor/lib64/camera/com.qti.tuned.citrus_sunny_s5kgm1st_main.bin
 
 # Camera-arcsoft
 vendor/lib/libarcsoft_beautyshot.so
