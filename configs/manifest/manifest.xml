@@ -169,10 +169,14 @@
         <transport>hwbinder</transport>
         <fqname>@1.0::IAlarm/default</fqname>
     </hal>
-    <hal format="hidl">
+<hal format="hidl">
         <name>vendor.qti.hardware.audiohalext</name>
         <transport>hwbinder</transport>
-        <fqname>@1.0::IAudioHalExt/default</fqname>
+        <version>1.0</version>
+        <interface>
+            <name>IAudioHalExt</name>
+            <instance>default</instance>
+        </interface>
     </hal>
     <hal format="hidl">
         <name>vendor.qti.hardware.bluetooth_audio</name>
