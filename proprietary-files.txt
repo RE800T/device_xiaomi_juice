@@ -33,6 +33,15 @@ vendor/lib/rfsa/adsp/misound_karaoke_res.bin
 vendor/lib/rfsa/adsp/misound_res.bin
 vendor/lib/rfsa/adsp/misound_res_headphone.bin
 
+# Audio-HAL
+vendor/lib/hw/audio.primary.bengal.so
+vendor/lib/libaudio_log_utils.so
+vendor/lib64/hw/audio.primary.bengal.so
+vendor/lib64/libaudio_log_utils.so
+vendor/lib/hw/vendor.qti.hardware.audiohalext@1.0-impl.so
+vendor/lib/vendor.qti.hardware.audiohalext@1.0.so
+vendor/lib/liba2dpoffload.so
+
 # ANT
 vendor/lib/com.dsi.ant@1.0.so
 vendor/lib64/com.dsi.ant@1.0.so
