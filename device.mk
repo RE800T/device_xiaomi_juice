@@ -617,10 +617,10 @@ PRODUCT_BOOT_JARS += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    framework \
-    SystemUI \
     WifiResCommon \
-    AospWifiResOverlay
+    AospWifiResOverlay \
+    JuiceSystemUI \
+    JuiceFrameworks
 
 # Dirac
 PRODUCT_PACKAGES += \
