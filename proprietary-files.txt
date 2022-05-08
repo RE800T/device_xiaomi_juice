@@ -814,6 +814,12 @@ vendor/lib64/libqtikeymaster4.so
 vendor/lib64/vendor.qti.hardware.data.latency@1.0.so
 vendor/lib64/vendor.qti.latency@2.0.so
 
+# LDAC
+system/lib/libldacBT_abr.so
+system/lib/libldacBT_enc.so
+system/lib64/libldacBT_abr.so
+system/lib64/libldacBT_enc.so
+
 # Listen
 vendor/lib/libadpcmdec.so
 vendor/lib/libgcs-calwrapper.so
