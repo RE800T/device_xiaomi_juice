@@ -210,6 +210,11 @@ vendor.gralloc.disable_ubwc=0
 ro.hardware.keystore_desede=true
 keyguard.no_require_sim=true
 
+# Enable ULMK properties
+ro.lmk.kill_heaviest_task=true
+ro.lmk.kill_timeout_ms=15
+ro.lmk.use_minfree_levels=true
+
 # Media
 debug.stagefright.ccodec=4
 debug.stagefright.omx_default_rank=0
