@@ -906,7 +906,6 @@ vendor/lib/nfc_nci.st21nfc.st.so
 vendor/lib64/nfc_nci.st21nfc.st.so
 vendor/odm/etc/permissions/sku_lemon/android.hardware.nfc.hce.xml
 vendor/odm/etc/permissions/sku_lemon/android.hardware.nfc.hcef.xml
-vendor/odm/etc/permissions/sku_lemon/android.hardware.nfc.uicc.xml
 vendor/odm/etc/permissions/sku_lemon/android.hardware.nfc.xml
 
 # Neural-networks
