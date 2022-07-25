@@ -33,6 +33,9 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/xiaomi \
     packages/apps/Bluetooth
 
+# Flatten APEXs for performance
+OVERRIDE_TARGET_FLATTEN_APEX := true
+
 # Add default implementation of fastboot HAL.
 PRODUCT_PACKAGES += android.hardware.fastboot@1.0-impl-mock
 PRODUCT_PACKAGES += fastbootd
